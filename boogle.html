@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boogle</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            padding: 10px;
+            text-align: left;
+            background-color: #eaeaea;
+            border-bottom: 1px solid #ccc;
+        }
+        header a {
+            margin: 0 15px;
+            font-size: 14px;
+            text-decoration: none;
+            color: black;
+        }
+        main {
+            margin-top: 150px;
+        }
+        h1 {
+            font-size: 48px;
+            font-weight: normal;
+        }
+        .search-container {
+            margin-top: 20px;
+            position: relative;
+            display: inline-block;
+            width: 30%
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            font-size: 18px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .search-options {
+            display: inline-block;
+            position: absolute;
+            top: 0;
+            right: -130px; 
+        }
+        .search-options a {
+            display: block; 
+            font-size: 12px;
+            margin-bottom: 5px; 
+            color: #0000EE;
+            text-decoration: none;
+        }
+        .buttons {
+            margin-top: 20px;
+        }
+        .buttons input {
+            padding: 10px 20px;
+            font-size: 16px;
+            margin: 0 10px;
+            cursor: pointer;
+            background-color: #f2f2f2;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .footer {
+            margin-top: 100px;
+            font-size: 12px;
+            color: #666;
+        }
+        .footer a {
+            text-decoration: none;
+            color: #666;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <a href="#">Web</a>
+    <a href="#">Images</a>
+    <a href="#">Maps</a>
+    <a href="#">News</a>
+    <a href="#">more ▼</a>
+    <span style="float: right;">
+        <a href="#">iBoogle</a>
+        <a href="#">Sign In</a>
+    </span>
+</header>
+
+<main>
+    <h1>Boogle</h1>
+    <div class="search-container">
+        <input type="text" placeholder="Search...">
+        <div class="search-options">
+            <a href="#">Advanced Search</a>
+            <a href="#">Preferences</a>
+        </div>
+    </div>
+    <div class="buttons">
+        <input type="button" value="Boogle Search">
+        <input type="button" value="I'm Feeling Lucky">
+    </div>
+</main>
+
+<div class="footer">
+    <a href="#">Advertising Programs</a>
+    <a href="#">Business Solutions</a>
+    <a href="#">About Boogle</a>
+    <p>&copy; 2008 Boogle</p>
+</div>
+
+</body>
+</html>
